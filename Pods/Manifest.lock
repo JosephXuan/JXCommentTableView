@@ -1,0 +1,30 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - SDWebImage
+  - YYModel
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SDWebImage
+    - YYModel
+    - YYText
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 515f44d98beb60f21cc216247471e690e1788c4a
+
+COCOAPODS: 1.8.3

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5116CEAA5C97DE3DEAC9C254 /* libPods-JXCommentTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0695A04D39460679F7731957 /* libPods-JXCommentTableView.a */; };
 		B841D9E42352F1C1004240A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9E32352F1C1004240A7 /* AppDelegate.m */; };
 		B841D9E72352F1C1004240A7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9E62352F1C1004240A7 /* SceneDelegate.m */; };
 		B841D9EA2352F1C1004240A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9E92352F1C1004240A7 /* ViewController.m */; };
@@ -16,6 +17,21 @@
 		B841D9F52352F1C4004240A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9F42352F1C4004240A7 /* main.m */; };
 		B841D9FF2352F1C4004240A7 /* JXCommentTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9FE2352F1C4004240A7 /* JXCommentTableViewTests.m */; };
 		B841DA0A2352F1C4004240A7 /* JXCommentTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DA092352F1C4004240A7 /* JXCommentTableViewUITests.m */; };
+		B88B63332362F52A00724E30 /* JXCommentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63322362F52A00724E30 /* JXCommentTableView.m */; };
+		B88B633F236677D800724E30 /* JXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B633C236677D800724E30 /* JXBaseNavigationController.m */; };
+		B88B6340236677D800724E30 /* JXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B633D236677D800724E30 /* JXBaseViewController.m */; };
+		B88B6341236677D800724E30 /* JXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B633E236677D800724E30 /* JXBaseTabBarController.m */; };
+		B88B63442366789B00724E30 /* JXCommentCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63432366789B00724E30 /* JXCommentCtrl.m */; };
+		B88B6347236678D900724E30 /* JXMineCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6346236678D900724E30 /* JXMineCtrl.m */; };
+		B88B634B236679D800724E30 /* JXCommentTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B634A236679D800724E30 /* JXCommentTools.m */; };
+		B88B634E23667A0A00724E30 /* UIColor+JXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B634D23667A0900724E30 /* UIColor+JXHex.m */; };
+		B88B63532366811C00724E30 /* JXCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63522366811C00724E30 /* JXCommentModel.m */; };
+		B88B63562366824400724E30 /* JXCommentChildModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63552366824400724E30 /* JXCommentChildModel.m */; };
+		B88B6358236687C500724E30 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = B88B6357236687C500724E30 /* test.json */; };
+		B88B635B2368473B00724E30 /* JXCommentTableSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B635A2368473B00724E30 /* JXCommentTableSectionHeadView.m */; };
+		B88B635E2368475000724E30 /* JXCommentTableSectionFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B635D2368475000724E30 /* JXCommentTableSectionFootView.m */; };
+		B88B63612368476900724E30 /* JXCommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63602368476900724E30 /* JXCommentTableCell.m */; };
+		B88B6365236847A200724E30 /* JXCommentTabHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6364236847A200724E30 /* JXCommentTabHeadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0695A04D39460679F7731957 /* libPods-JXCommentTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXCommentTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA86A4FEA135BE90DAB08A5 /* Pods-JXCommentTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXCommentTableView.debug.xcconfig"; path = "Target Support Files/Pods-JXCommentTableView/Pods-JXCommentTableView.debug.xcconfig"; sourceTree = "<group>"; };
 		B841D9DF2352F1C1004240A7 /* JXCommentTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXCommentTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841D9E22352F1C1004240A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B841D9E32352F1C1004240A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +72,37 @@
 		B841DA052352F1C4004240A7 /* JXCommentTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXCommentTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DA092352F1C4004240A7 /* JXCommentTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableViewUITests.m; sourceTree = "<group>"; };
 		B841DA0B2352F1C4004240A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88B63312362F52A00724E30 /* JXCommentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTableView.h; sourceTree = "<group>"; };
+		B88B63322362F52A00724E30 /* JXCommentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableView.m; sourceTree = "<group>"; };
+		B88B6339236677D800724E30 /* JXBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBaseTabBarController.h; sourceTree = "<group>"; };
+		B88B633A236677D800724E30 /* JXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBaseViewController.h; sourceTree = "<group>"; };
+		B88B633B236677D800724E30 /* JXBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBaseNavigationController.h; sourceTree = "<group>"; };
+		B88B633C236677D800724E30 /* JXBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBaseNavigationController.m; sourceTree = "<group>"; };
+		B88B633D236677D800724E30 /* JXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBaseViewController.m; sourceTree = "<group>"; };
+		B88B633E236677D800724E30 /* JXBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBaseTabBarController.m; sourceTree = "<group>"; };
+		B88B63422366789B00724E30 /* JXCommentCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentCtrl.h; sourceTree = "<group>"; };
+		B88B63432366789B00724E30 /* JXCommentCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentCtrl.m; sourceTree = "<group>"; };
+		B88B6345236678D900724E30 /* JXMineCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXMineCtrl.h; sourceTree = "<group>"; };
+		B88B6346236678D900724E30 /* JXMineCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXMineCtrl.m; sourceTree = "<group>"; };
+		B88B63482366796A00724E30 /* JXCommentTableView+PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JXCommentTableView+PublicHeader.h"; sourceTree = "<group>"; };
+		B88B6349236679D800724E30 /* JXCommentTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTools.h; sourceTree = "<group>"; };
+		B88B634A236679D800724E30 /* JXCommentTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTools.m; sourceTree = "<group>"; };
+		B88B634C23667A0900724E30 /* UIColor+JXHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JXHex.h"; sourceTree = "<group>"; };
+		B88B634D23667A0900724E30 /* UIColor+JXHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JXHex.m"; sourceTree = "<group>"; };
+		B88B63512366811C00724E30 /* JXCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentModel.h; sourceTree = "<group>"; };
+		B88B63522366811C00724E30 /* JXCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentModel.m; sourceTree = "<group>"; };
+		B88B63542366824400724E30 /* JXCommentChildModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentChildModel.h; sourceTree = "<group>"; };
+		B88B63552366824400724E30 /* JXCommentChildModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentChildModel.m; sourceTree = "<group>"; };
+		B88B6357236687C500724E30 /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		B88B63592368473B00724E30 /* JXCommentTableSectionHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTableSectionHeadView.h; sourceTree = "<group>"; };
+		B88B635A2368473B00724E30 /* JXCommentTableSectionHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableSectionHeadView.m; sourceTree = "<group>"; };
+		B88B635C2368475000724E30 /* JXCommentTableSectionFootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTableSectionFootView.h; sourceTree = "<group>"; };
+		B88B635D2368475000724E30 /* JXCommentTableSectionFootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableSectionFootView.m; sourceTree = "<group>"; };
+		B88B635F2368476900724E30 /* JXCommentTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTableCell.h; sourceTree = "<group>"; };
+		B88B63602368476900724E30 /* JXCommentTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableCell.m; sourceTree = "<group>"; };
+		B88B6363236847A200724E30 /* JXCommentTabHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTabHeadView.h; sourceTree = "<group>"; };
+		B88B6364236847A200724E30 /* JXCommentTabHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTabHeadView.m; sourceTree = "<group>"; };
+		DD5EC841FEF6F0346ABEB615 /* Pods-JXCommentTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXCommentTableView.release.xcconfig"; path = "Target Support Files/Pods-JXCommentTableView/Pods-JXCommentTableView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5116CEAA5C97DE3DEAC9C254 /* libPods-JXCommentTableView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +138,8 @@
 				B841D9FD2352F1C4004240A7 /* JXCommentTableViewTests */,
 				B841DA082352F1C4004240A7 /* JXCommentTableViewUITests */,
 				B841D9E02352F1C1004240A7 /* Products */,
+				DFD4CE70DAC4008AB4EBAB0E /* Pods */,
+				D678EEFEADC48A316703B22D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +156,25 @@
 		B841D9E12352F1C1004240A7 /* JXCommentTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B88B634C23667A0900724E30 /* UIColor+JXHex.h */,
+				B88B634D23667A0900724E30 /* UIColor+JXHex.m */,
+				B88B6349236679D800724E30 /* JXCommentTools.h */,
+				B88B634A236679D800724E30 /* JXCommentTools.m */,
+				B88B63482366796A00724E30 /* JXCommentTableView+PublicHeader.h */,
+				B88B6338236677D800724E30 /* Base */,
 				B841D9E22352F1C1004240A7 /* AppDelegate.h */,
 				B841D9E32352F1C1004240A7 /* AppDelegate.m */,
 				B841D9E52352F1C1004240A7 /* SceneDelegate.h */,
 				B841D9E62352F1C1004240A7 /* SceneDelegate.m */,
+				B88B63502366810900724E30 /* Model */,
+				B88B63622368477300724E30 /* View */,
+				B88B634F2366810200724E30 /* Ctrl */,
+				B88B6345236678D900724E30 /* JXMineCtrl.h */,
+				B88B6346236678D900724E30 /* JXMineCtrl.m */,
 				B841D9E82352F1C1004240A7 /* ViewController.h */,
 				B841D9E92352F1C1004240A7 /* ViewController.m */,
 				B841D9EB2352F1C1004240A7 /* Main.storyboard */,
+				B88B6357236687C500724E30 /* test.json */,
 				B841D9EE2352F1C4004240A7 /* Assets.xcassets */,
 				B841D9F02352F1C4004240A7 /* LaunchScreen.storyboard */,
 				B841D9F32352F1C4004240A7 /* Info.plist */,
@@ -137,6 +201,113 @@
 			path = JXCommentTableViewUITests;
 			sourceTree = "<group>";
 		};
+		B88B63302362F4DA00724E30 /* JXCommentTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63362362F55600724E30 /* TabSectionHeadView */,
+				B88B63342362F54F00724E30 /* TabCell */,
+				B88B63352362F55100724E30 /* TabSectionFootView */,
+				B88B63372362F59300724E30 /* TabView */,
+			);
+			path = JXCommentTableView;
+			sourceTree = "<group>";
+		};
+		B88B63342362F54F00724E30 /* TabCell */ = {
+			isa = PBXGroup;
+			children = (
+				B88B635F2368476900724E30 /* JXCommentTableCell.h */,
+				B88B63602368476900724E30 /* JXCommentTableCell.m */,
+			);
+			path = TabCell;
+			sourceTree = "<group>";
+		};
+		B88B63352362F55100724E30 /* TabSectionFootView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B635C2368475000724E30 /* JXCommentTableSectionFootView.h */,
+				B88B635D2368475000724E30 /* JXCommentTableSectionFootView.m */,
+			);
+			path = TabSectionFootView;
+			sourceTree = "<group>";
+		};
+		B88B63362362F55600724E30 /* TabSectionHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63592368473B00724E30 /* JXCommentTableSectionHeadView.h */,
+				B88B635A2368473B00724E30 /* JXCommentTableSectionHeadView.m */,
+			);
+			path = TabSectionHeadView;
+			sourceTree = "<group>";
+		};
+		B88B63372362F59300724E30 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63312362F52A00724E30 /* JXCommentTableView.h */,
+				B88B63322362F52A00724E30 /* JXCommentTableView.m */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		B88B6338236677D800724E30 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B88B6339236677D800724E30 /* JXBaseTabBarController.h */,
+				B88B633E236677D800724E30 /* JXBaseTabBarController.m */,
+				B88B633D236677D800724E30 /* JXBaseViewController.m */,
+				B88B633A236677D800724E30 /* JXBaseViewController.h */,
+				B88B633B236677D800724E30 /* JXBaseNavigationController.h */,
+				B88B633C236677D800724E30 /* JXBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B88B634F2366810200724E30 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63422366789B00724E30 /* JXCommentCtrl.h */,
+				B88B63432366789B00724E30 /* JXCommentCtrl.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		B88B63502366810900724E30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63512366811C00724E30 /* JXCommentModel.h */,
+				B88B63522366811C00724E30 /* JXCommentModel.m */,
+				B88B63542366824400724E30 /* JXCommentChildModel.h */,
+				B88B63552366824400724E30 /* JXCommentChildModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B88B63622368477300724E30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B88B63302362F4DA00724E30 /* JXCommentTableView */,
+				B88B6363236847A200724E30 /* JXCommentTabHeadView.h */,
+				B88B6364236847A200724E30 /* JXCommentTabHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D678EEFEADC48A316703B22D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0695A04D39460679F7731957 /* libPods-JXCommentTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD4CE70DAC4008AB4EBAB0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AA86A4FEA135BE90DAB08A5 /* Pods-JXCommentTableView.debug.xcconfig */,
+				DD5EC841FEF6F0346ABEB615 /* Pods-JXCommentTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B841DA0E2352F1C4004240A7 /* Build configuration list for PBXNativeTarget "JXCommentTableView" */;
 			buildPhases = (
+				781737D86CA1265CA42C679F /* [CP] Check Pods Manifest.lock */,
 				B841D9DB2352F1C1004240A7 /* Sources */,
 				B841D9DC2352F1C1004240A7 /* Frameworks */,
 				B841D9DD2352F1C1004240A7 /* Resources */,
@@ -241,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B841D9F22352F1C4004240A7 /* LaunchScreen.storyboard in Resources */,
+				B88B6358236687C500724E30 /* test.json in Resources */,
 				B841D9EF2352F1C4004240A7 /* Assets.xcassets in Resources */,
 				B841D9ED2352F1C1004240A7 /* Main.storyboard in Resources */,
 			);
@@ -262,15 +435,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		781737D86CA1265CA42C679F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXCommentTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B841D9DB2352F1C1004240A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88B635B2368473B00724E30 /* JXCommentTableSectionHeadView.m in Sources */,
+				B88B63562366824400724E30 /* JXCommentChildModel.m in Sources */,
+				B88B634B236679D800724E30 /* JXCommentTools.m in Sources */,
+				B88B634E23667A0A00724E30 /* UIColor+JXHex.m in Sources */,
+				B88B6341236677D800724E30 /* JXBaseTabBarController.m in Sources */,
+				B88B63332362F52A00724E30 /* JXCommentTableView.m in Sources */,
 				B841D9EA2352F1C1004240A7 /* ViewController.m in Sources */,
+				B88B633F236677D800724E30 /* JXBaseNavigationController.m in Sources */,
 				B841D9E42352F1C1004240A7 /* AppDelegate.m in Sources */,
+				B88B6347236678D900724E30 /* JXMineCtrl.m in Sources */,
 				B841D9F52352F1C4004240A7 /* main.m in Sources */,
 				B841D9E72352F1C1004240A7 /* SceneDelegate.m in Sources */,
+				B88B63612368476900724E30 /* JXCommentTableCell.m in Sources */,
+				B88B63532366811C00724E30 /* JXCommentModel.m in Sources */,
+				B88B63442366789B00724E30 /* JXCommentCtrl.m in Sources */,
+				B88B6340236677D800724E30 /* JXBaseViewController.m in Sources */,
+				B88B6365236847A200724E30 /* JXCommentTabHeadView.m in Sources */,
+				B88B635E2368475000724E30 /* JXCommentTableSectionFootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +649,7 @@
 		};
 		B841DA0F2352F1C4004240A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AA86A4FEA135BE90DAB08A5 /* Pods-JXCommentTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +666,7 @@
 		};
 		B841DA102352F1C4004240A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5EC841FEF6F0346ABEB615 /* Pods-JXCommentTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

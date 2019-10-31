@@ -5,9 +5,9 @@
 //  Created by JosephXuan on 2019/10/13.
 //  Copyright © 2019 JosephXuan. All rights reserved.
 //
-
+//
 #import "AppDelegate.h"
-
+#import "JXBaseTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    JXBaseTabBarController * vc = [[JXBaseTabBarController alloc] init];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
