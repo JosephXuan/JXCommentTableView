@@ -17,6 +17,7 @@
 		B841D9F52352F1C4004240A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9F42352F1C4004240A7 /* main.m */; };
 		B841D9FF2352F1C4004240A7 /* JXCommentTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841D9FE2352F1C4004240A7 /* JXCommentTableViewTests.m */; };
 		B841DA0A2352F1C4004240A7 /* JXCommentTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841DA092352F1C4004240A7 /* JXCommentTableViewUITests.m */; };
+		B884A6AA236ACF5500E4179E /* Screen Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = B884A6A9236ACF5500E4179E /* Screen Shot.png */; };
 		B88B63332362F52A00724E30 /* JXCommentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B63322362F52A00724E30 /* JXCommentTableView.m */; };
 		B88B633F236677D800724E30 /* JXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B633C236677D800724E30 /* JXBaseNavigationController.m */; };
 		B88B6340236677D800724E30 /* JXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B633D236677D800724E30 /* JXBaseViewController.m */; };
@@ -72,6 +73,7 @@
 		B841DA052352F1C4004240A7 /* JXCommentTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXCommentTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841DA092352F1C4004240A7 /* JXCommentTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableViewUITests.m; sourceTree = "<group>"; };
 		B841DA0B2352F1C4004240A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B884A6A9236ACF5500E4179E /* Screen Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot.png"; sourceTree = "<group>"; };
 		B88B63312362F52A00724E30 /* JXCommentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXCommentTableView.h; sourceTree = "<group>"; };
 		B88B63322362F52A00724E30 /* JXCommentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXCommentTableView.m; sourceTree = "<group>"; };
 		B88B6339236677D800724E30 /* JXBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBaseTabBarController.h; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		B841D9E12352F1C1004240A7 /* JXCommentTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B884A6A9236ACF5500E4179E /* Screen Shot.png */,
 				B88B634C23667A0900724E30 /* UIColor+JXHex.h */,
 				B88B634D23667A0900724E30 /* UIColor+JXHex.m */,
 				B88B6349236679D800724E30 /* JXCommentTools.h */,
@@ -414,6 +417,7 @@
 			files = (
 				B841D9F22352F1C4004240A7 /* LaunchScreen.storyboard in Resources */,
 				B88B6358236687C500724E30 /* test.json in Resources */,
+				B884A6AA236ACF5500E4179E /* Screen Shot.png in Resources */,
 				B841D9EF2352F1C4004240A7 /* Assets.xcassets in Resources */,
 				B841D9ED2352F1C1004240A7 /* Main.storyboard in Resources */,
 			);
